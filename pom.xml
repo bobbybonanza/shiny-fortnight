@@ -13,10 +13,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <scm>
-    <developerConnection>scm:git:https://github.com/bobbybonanza/shiny-fortnight.git</developerConnection>
-  </scm>
-  
   <build>
     <plugins>
       <plugin>
@@ -25,6 +21,7 @@
         <version>1.0-m5.1</version>
         <configuration>
             <noDeploy>true</noDeploy>
+            <squash>true</squash>
         </configuration>
       </plugin>
     </plugins>
