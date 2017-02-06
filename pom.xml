@@ -21,6 +21,7 @@
         <version>1.0-m5.1</version>
         <configuration>
             <noDeploy>true</noDeploy>
+            <pushReleases>true</pushReleases>
             <squash>true</squash>
         </configuration>
       </plugin>
